@@ -1,4 +1,4 @@
-# Giggle Pig: PHP/Vue Framework
+# Giggle Pig: Back-end Framework (PHP)
 
 <p align="center">
   <img width="460" height="300" src="https://raw.githubusercontent.com/srisar/giggle-pig/master/public/images/giggle-pig-full.svg">
