@@ -1,0 +1,22 @@
+{
+  "name": "srisaravana/php_vue",
+  "authors": [
+    {
+      "name": "Srisaravana Manicaraja",
+      "email": "saravanamuthaly@gmail.com"
+    }
+  ],
+  "require": {
+    "nesbot/carbon": "^2.46",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "intervention/image": "^2.6",
+    "firebase/php-jwt": "^6.0"
+  },
+  "description": "",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App"
+    }
+  }
+}
