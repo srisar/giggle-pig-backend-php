@@ -30,9 +30,11 @@ try {
         JSONResponse::validResponse([
             "message" => "Login successful",
             "jwt" => $jwt,
+            "id" => $loggedInUser->id,
             "username" => $loggedInUser->username,
             "email" => $loggedInUser->email,
             "full_name" => $loggedInUser->full_name,
+            "role" => $loggedInUser->role,
             "profile_pic" => $loggedInUser->profile_pic,
         ]);
         exit;

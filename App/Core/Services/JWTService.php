@@ -28,7 +28,7 @@ class JWTService
 
         self::$issued_at = $_time->getTimestamp();
         self::$not_before = $_time->getTimestamp();
-        self::$expire = $_time->modify("+6 minutes")->getTimestamp();
+        self::$expire = $_time->modify("+60 minutes")->getTimestamp();
 
         self::$token = [
             "iss" => self::ISSUER,
