@@ -26,7 +26,7 @@ class User implements IModel
 
 
     /**
-     * Builds an user object from given array of values.
+     * Builds a user object from given array of values.
      * Array key must be of user property and value matches the datatype
      *
      * @param $array
